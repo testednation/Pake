@@ -10,17 +10,17 @@ on:
       platform:
         description: "Platform"
         required: true
-        default: "macos-latest"
+        default: "windows-latest"
         type: choice
         options:
           - "windows-latest"
           - "macos-latest"
           - "ubuntu-24.04"
       url:
-        description: "Website URL"
+        description: "https://paint3d.freebuff.app/studio"
         required: true
       name:
-        description: "App name (lowercase for Linux)"
+        description: "Paint 3D Facet (lowercase for Linux)"
         required: true
       icon:
         description: "Icon URL, auto-fetch if empty"
